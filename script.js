@@ -82,10 +82,10 @@ function generatePassword (){
     }
   }
   // if the user does not select any of the character types, the user is alerted with an error.  
-  else{
+  /*else{
     var userAlert = window.alert("Error! You need to pick atleast one of the character types!");
     return; 
-  }
+  }*/
   // we initialize a final password variable. this is where the temp password that was store in the Password String during the duration of 
   // program gets copied onto the final password and the final password is returned to the user and is displayed. 
   var finalPassword = "";
